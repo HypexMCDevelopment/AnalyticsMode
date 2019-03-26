@@ -1,0 +1,20 @@
+name: Analytics_Mode
+description: This plugin is made to analyis HypexMC Network
+version: 1.0.0
+main: me.starboy.projects.MainAnalyticsMode
+commands:
+  analytics:
+    description: Enables the analytics Mode
+    usage: /analytics
+  turn:
+    description: Disables the Analytics Mode
+    usage: /turn
+  rewards:
+    description: Opens the Rewards GUI
+    usage: /rewards
+permissions:
+  am.use.rewards:
+    description: You can set rewards by accessing the rewards GUI with this permission.
+    default: op
+
+
